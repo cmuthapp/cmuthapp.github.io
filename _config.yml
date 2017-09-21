@@ -1,0 +1,19 @@
+
+title: My Resume
+#baseurl: '/PanelCV' #change it according to your repository name
+
+
+
+# Profile information
+yourname: Chidambaram Muthappan  ## put your name
+title: 'Student, Engineer &amp; Data Enthusiast'  ## your title
+location: Los Angeles , CA
+
+
+## Social Profiles
+facebook: https://www.facebook.com/chidambaram.muthappan  ## your facebook account url
+linkedin: https://www.linkedin.com/in/chidambaram-muthappan-a2301a75/  ## your linkedin account url
+github: https://github.com/cmuthapp/
+
+
+# Update all the sections by editing the files inside _includes folder.
