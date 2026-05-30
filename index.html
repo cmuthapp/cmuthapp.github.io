@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chidambaram Muthappan | Senior Specialist Solution Architect</title>
+    <meta name="description" content="Personal portfolio of Chidambaram Muthappan, Senior Specialist Solution Architect at AWS based in Seattle, WA. Expert in Generative AI, AI Agents, MCP Servers, and Data Services.">
+    
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="Chidambaram Muthappan | Senior Specialist Solution Architect">
+    <meta property="og:description" content="Expert in Generative AI, AI Agents, MCP Servers, and Cloud Data Solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cmuthapp.github.io">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    
+    <!-- Glowing background elements for aesthetic premium feel -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar glass-panel">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="nav-logo-btn">
+                <span class="logo-dot"></span>
+                <span class="logo-text">CM</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link active" id="nav-link-about">About</a>
+                <a href="#experience" class="nav-link" id="nav-link-experience">Experience</a>
+                <a href="#skills" class="nav-link" id="nav-link-skills">Skills</a>
+                <a href="#keychains" class="nav-link" id="nav-link-keychains">Keychains</a>
+                <a href="#contact" class="nav-link" id="nav-link-contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark and light theme">
+                    <!-- Moon SVG -->
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <!-- Sun SVG -->
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <a href="Chidambaram_Resume.pdf" target="_blank" class="btn btn-sm btn-primary-outline" id="download-resume-header">Download Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="main-layout container">
+        
+        <!-- Left Side: Sticky Profile Card -->
+        <aside class="profile-aside">
+            <div class="profile-card glass-panel text-center">
+                
+                <!-- Profile Avatar (Static) -->
+                <div class="profile-avatar-container">
+                    <div class="profile-avatar-single">
+                        <img src="images/img-profile/profile.jpg" alt="Chidambaram Muthappan" class="profile-avatar-img active">
+                    </div>
+                </div>
+
+                <div class="profile-header-info">
+                    <h1 class="profile-name">Chidambaram Muthappan</h1>
+                    <p class="profile-title">Senior Specialist Solution Architect at AWS</p>
+                    <div class="profile-location">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>Seattle, WA</span>
+                    </div>
+                </div>
+
+                <!-- Contact & Bio Quick Details -->
+                <div class="profile-quick-details">
+                    <div class="detail-item email-detail-item">
+                        <span class="detail-label">Email</span>
+                        <div class="email-copy-wrapper">
+                            <a href="mailto:chidambaram70@gmail.com" class="detail-value email-value text-glow-hover" id="email-aside">chidambaram70@gmail.com</a>
+                            <button class="copy-email-btn" id="copy-email-aside" aria-label="Copy email to clipboard">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                <span class="tooltip-text" id="tooltip-aside">Copy</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Domain</span>
+                        <span class="detail-value">Generative AI, AI Agents, Data Services</span>
+                    </div>
+                </div>
+
+                <!-- Social Profiles -->
+                <div class="profile-socials">
+                    <a href="https://www.linkedin.com/in/chidambaram-muthappan-a2301a75/" target="_blank" class="social-btn glass-panel" aria-label="LinkedIn Link" id="linkedin-aside">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+
+                <div class="aside-footer">
+                    <p>&copy; 2026 Chidambaram Muthappan</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Side: Scrollable Sections -->
+        <main class="main-content">
+
+            <!-- Section 1: About -->
+            <section id="about" class="content-section active reveal-on-scroll">
+                <div class="glass-panel section-panel">
+                    <h2 class="section-title">Profile - About Me</h2>
+                    
+                    <div class="about-grid">
+                        <div class="about-text-content">
+                            <p class="lead-bio">
+                                "I help enterprises securely harness the power of Generative AI. With a background spanning MLOps, high-scale software engineering, and cloud data architecture, I architect robust systems that transform enterprise data streams into production-grade AI Agents and scalable cloud services."
+                            </p>
+                            
+                            <p class="bio-paragraph">
+                                As a <strong>Senior Specialist Solution Architect at AWS</strong> based in Seattle, WA, I specialize in Generative AI data strategies, secure LLM architectures, and the strategic enablement of next-generation systems like <strong>AI Agents and Model Context Protocol (MCP) servers</strong>.
+                            </p>
+
+                            <div class="personal-highlights-row">
+                                <div class="highlight-badge glass-panel">
+                                    <span class="badge-num">10+</span>
+                                    <span class="badge-txt">Years Experience</span>
+                                </div>
+                                <div class="highlight-badge glass-panel">
+                                    <span class="badge-num">15+</span>
+                                    <span class="badge-txt">AI Vendor Partners</span>
+                                </div>
+                                <div class="highlight-badge glass-panel">
+                                    <span class="badge-num">16</span>
+                                    <span class="badge-txt">Global Speaker Sessions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Experience Timeline -->
+            <section id="experience" class="content-section reveal-on-scroll">
+                <div class="glass-panel section-panel">
+                    <h2 class="section-title">Career Experience</h2>
+
+                    <!-- Modern Interactive Vertical Timeline -->
+                    <div class="timeline">
+                        
+                        <!-- Timeline Item 1: AWS -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-panel card-lift">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3 class="role-title">Senior Specialist Solution Architect</h3>
+                                        <span class="company-name text-gradient">Amazon Web Services (AWS)</span>
+                                    </div>
+                                    <span class="duration-badge">Feb 2022 – Present</span>
+                                </div>
+                                <ul class="achievement-list">
+                                    <li>Led a dedicated team of solution architects in the strategic enablement of 15+ software vendor partners, guiding them to successfully build, integrate, and list <strong>AI Agents</strong> and **MCP (Model Context Protocol) servers** in the AWS Marketplace within a rapid two-month timeframe.</li>
+                                    <li>Developed and delivered Generative AI data strategies for large-scale enterprise customers, providing architectural guidance on securely leveraging third-party data for Large Language Models (LLMs).</li>
+                                    <li>Acted as an AI/ML evangelist to increase platform awareness and usage, authoring 5 high-traffic technical blogs on data modeling and AI Agent development.</li>
+                                    <li>Drove technology adoption by delivering 16 live technical sessions at premier global conferences, including <strong>AWS re:Invent</strong> and the **NY AWS Summit**.</li>
+                                    <li>Spearheaded technical go-to-market strategies for highly ambiguous, emerging AI and Data feature launches (e.g., AWS Data Exchange, AI Agents), adapting to rapidly evolving business objectives.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 2: Domino Data Lab -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-panel card-lift">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3 class="role-title">Senior Field Engineer</h3>
+                                        <span class="company-name text-gradient">Domino Data Lab</span>
+                                    </div>
+                                    <span class="duration-badge">Sept 2021 – Feb 2022</span>
+                                </div>
+                                <ul class="achievement-list">
+                                    <li>Designed and developed automated scripts empowering data scientists to run processing jobs in parallel on the Domino platform, resulting in a **60% decrease** in processing time.</li>
+                                    <li>Worked with multiple enterprise customers as an account manager and field engineer to increase adoption of the Domino enterprise MLOps/Data Science workbench.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 3: Nike -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-panel card-lift">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3 class="role-title">Senior Software Engineer III</h3>
+                                        <span class="company-name text-gradient">Nike</span>
+                                    </div>
+                                    <div class="timeline-header-right">
+                                        <span class="duration-badge">Feb 2018 – Sept 2021</span>
+                                        <button class="toggle-details-btn" aria-expanded="false" aria-label="Toggle details">
+                                            <span class="toggle-text">Show Details</span>
+                                            <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="collapsible-wrapper">
+                                    <ul class="achievement-list">
+                                        <li>Engineered robust MLOps automation enabling Data Scientists to seamlessly serve ML models at scale using Kubernetes and Flask, creating a Continuous Delivery workflow that reduced ML time-to-market to just **2 weeks**.</li>
+                                        <li>Collaborated cross-functionally with cloud providers to establish **AWS SageMaker** as a core compute platform within the Nike enterprise ecosystem, achieving an **80% user satisfaction rate**.</li>
+                                        <li>Developed Airflow operators integrating with Databricks APIs to seamlessly orchestrate scheduled runs for ML models.</li>
+                                        <li>Collaborated with Data Engineers and Scientists to adapt common patterns for data processing jobs, which increased system observability and alarming capabilities by **70%**.</li>
+                                        <li>Designed a distributed cache service using AWS ElastiCache to optimize performance of customer-facing recommendation models.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 4: UCLA Research -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-panel card-lift">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3 class="role-title">Research Assistant</h3>
+                                        <span class="company-name text-gradient">UCLA</span>
+                                    </div>
+                                    <div class="timeline-header-right">
+                                        <span class="duration-badge">Mar 2017 – June 2017</span>
+                                        <button class="toggle-details-btn" aria-expanded="false" aria-label="Toggle details">
+                                            <span class="toggle-text">Show Details</span>
+                                            <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="collapsible-wrapper">
+                                    <ul class="achievement-list">
+                                        <li>Developed experiments to explore wealth visibility in a setting of dynamic social network interactions using the breadboard framework.</li>
+                                        <li>Created conversational bots on Facebook Messenger to automate survey administration and responses.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 5: Cisco Systems -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-panel card-lift">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3 class="role-title">I.T Engineer</h3>
+                                        <span class="company-name text-gradient">Cisco Systems</span>
+                                    </div>
+                                    <div class="timeline-header-right">
+                                        <span class="duration-badge">July 2014 – Aug 2016</span>
+                                        <button class="toggle-details-btn" aria-expanded="false" aria-label="Toggle details">
+                                            <span class="toggle-text">Show Details</span>
+                                            <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="collapsible-wrapper">
+                                    <ul class="achievement-list">
+                                        <li>Designed and developed a **PDF Extractor** tool that parses and extracts structured metadata from hundreds of structurally similar PDF documents using Java and Hadoop MapReduce.</li>
+                                        <li>Developed Apache Spark scripts for parallelized large-scale data processing to create a custom course recommendation tool.</li>
+                                        <li>Won Cisco's prestigious **Hack IT IV, 2014** (Cisco-wide hackathon) for designing and developing a real-time crime detection system for ATM cameras.</li>
+                                        <li>Received the **Early Career Recognition Award** at the 2015 Annual Cisco Meet for exceptional work ethic and rapid engineering contributions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 6: Tata Research -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content glass-panel card-lift">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3 class="role-title">Software Engineer Intern</h3>
+                                        <span class="company-name text-gradient">Tata Research</span>
+                                    </div>
+                                    <div class="timeline-header-right">
+                                        <span class="duration-badge">May 2013 – July 2013</span>
+                                        <button class="toggle-details-btn" aria-expanded="false" aria-label="Toggle details">
+                                            <span class="toggle-text">Show Details</span>
+                                            <svg class="toggle-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="collapsible-wrapper">
+                                    <ul class="achievement-list">
+                                        <li>Coded and deployed an interactive Android learning book app named **Pustack** by integrating several third-party APIs (Google Maps, Google Books, and MediaWiki Action API).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: Skills & Credentials -->
+            <section id="skills" class="content-section reveal-on-scroll">
+                <div class="glass-panel section-panel">
+                    <h2 class="section-title">Skills & Credentials</h2>
+
+                    <div class="skills-layout-grid">
+                        
+                        <!-- Core Expertise Highlight Panel (Full-Width) -->
+                        <div class="skills-card glass-panel card-lift core-expertise-card">
+                            <h3 class="card-subtitle text-gradient">Core Architectural Focus</h3>
+                            <div class="expertise-row">
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">🤖</span>
+                                    <div class="expertise-info">
+                                        <h4 class="expertise-title">AI Agents & MCP Ecosystems</h4>
+                                        <p class="expertise-desc">Pioneering the strategic architecture, integration, and secure lifecycle scaling of Model Context Protocol (MCP) ecosystems and AI Agents.</p>
+                                    </div>
+                                </div>
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">⚡</span>
+                                    <div class="expertise-info">
+                                        <h4 class="expertise-title">Generative AI Strategies</h4>
+                                        <p class="expertise-desc">Authoring robust cloud architectures to securely integrate enterprise transactional databases with Large Language Models (LLMs).</p>
+                                    </div>
+                                </div>
+                                <div class="expertise-item">
+                                    <span class="expertise-icon">🌀</span>
+                                    <div class="expertise-info">
+                                        <h4 class="expertise-title">High-Scale MLOps Platforms</h4>
+                                        <p class="expertise-desc">Orchestrating production workflows using AWS SageMaker, Kubernetes, Apache Spark, Airflow, and Flask frameworks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Core Skills Groups -->
+                        <div class="skills-card glass-panel card-lift">
+                            <h3 class="card-subtitle text-gradient">Programming Languages</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python <span class="tag-pct">85%</span></span>
+                                <span class="skill-tag">SQL <span class="tag-pct">85%</span></span>
+                                <span class="skill-tag">Scala <span class="tag-pct">75%</span></span>
+                                <span class="skill-tag">Java <span class="tag-pct">75%</span></span>
+                                <span class="skill-tag">C++ <span class="tag-pct">70%</span></span>
+                            </div>
+                        </div>
+
+                        <div class="skills-card glass-panel card-lift">
+                            <h3 class="card-subtitle text-gradient">Technologies & Cloud</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Generative AI</span>
+                                <span class="skill-tag">AI Agents</span>
+                                <span class="skill-tag">MCP (Model Context Protocol)</span>
+                                <span class="skill-tag">AWS (Amazon Web Services)</span>
+                                <span class="skill-tag">Apache Spark</span>
+                                <span class="skill-tag">Hadoop / MapReduce</span>
+                                <span class="skill-tag">Airflow</span>
+                                <span class="skill-tag">MLOps</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">AWS SageMaker</span>
+                                <span class="skill-tag">TensorFlow</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-card glass-panel card-lift">
+                            <h3 class="card-subtitle text-gradient">Education</h3>
+                            <div class="education-block">
+                                <div class="edu-item">
+                                    <h4>MS in Computer Science</h4>
+                                    <p class="school-name">University of California, Los Angeles (UCLA)</p>
+                                    <p class="edu-details">Sept 2016 – Dec 2017</p>
+                                    <p class="edu-notes"><strong>Expertise:</strong> Data Science, Large-Scale Data Mining, Distributed Database Systems, Cloud Computing</p>
+                                </div>
+                                <div class="edu-item">
+                                    <h4>Bachelor of Technology in CS</h4>
+                                    <p class="school-name">Amrita School of Engineering, India</p>
+                                    <p class="edu-details">July 2010 – Aug 2014</p>
+                                    <p class="edu-notes"><strong>Honors:</strong> Awarded Silver Medal for securing overall second rank in CSE</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-card glass-panel card-lift">
+                            <h3 class="card-subtitle text-gradient">Certifications & Publications</h3>
+                            <div class="credentials-list">
+                                <div class="cred-item">
+                                    <div class="cred-header">
+                                        <h4>Apache Spark™ for ML and Data Science</h4>
+                                        <span class="cred-authority">Databricks DB301</span>
+                                    </div>
+                                    <a href="https://academy.databricks.com/award/completion/ddb7d1a8-0542-301c-b8ca-1a97dfa1a782/preview" target="_blank" class="cred-link">View Credential &rarr;</a>
+                                </div>
+                                <div class="cred-item">
+                                    <div class="cred-header">
+                                        <h4>Video Recommender in Open/Closed Systems</h4>
+                                        <span class="cred-authority">IJRET Publication (2014)</span>
+                                    </div>
+                                    <a href="http://esatjournals.net/ijret/2014v03/i19/IJRET20140319005.pdf" target="_blank" class="cred-link">Read Research Paper &rarr;</a>
+                                </div>
+                                <div class="cred-item">
+                                    <div class="cred-header">
+                                        <h4>Early Career Recognition Award</h4>
+                                        <span class="cred-authority">Cisco Systems (2015)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Keychain Gallery -->
+            <section id="keychains" class="content-section reveal-on-scroll">
+                <div class="glass-panel section-panel">
+                    <h2 class="section-title">Keychain Collection</h2>
+                    <p class="section-intro">
+                        "I have the habit of buying keychains when I visit a place. This is my collection after reaching the USA."
+                    </p>
+
+                    <!-- Gallery Filter Categories -->
+                    <div class="gallery-filters" id="gallery-filters">
+                        <button class="filter-btn active" data-filter="all">All States</button>
+                        <button class="filter-btn" data-filter="Cal">California</button>
+                        <button class="filter-btn" data-filter="Ore">Oregon</button>
+                        <button class="filter-btn" data-filter="Wash">Washington</button>
+                    </div>
+
+                    <!-- Keychain Grid -->
+                    <div class="gallery-grid" id="gallery-grid">
+                        
+                        <!-- Wash 1 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Wash">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/TI7.jpg" alt="TI7 Key Arena Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">TI7 Key Arena</h4>
+                                <span class="keychain-loc">Seattle, WA</span>
+                            </div>
+                        </div>
+
+                        <!-- Cal 1 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Cal">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/getty.jpg" alt="Getty Center Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Getty Center</h4>
+                                <span class="keychain-loc">Los Angeles, CA</span>
+                            </div>
+                        </div>
+
+                        <!-- Wash 2 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Wash">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/factory.jpg" alt="Boeing Factory Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Boeing Factory</h4>
+                                <span class="keychain-loc">Renton, WA</span>
+                            </div>
+                        </div>
+
+                        <!-- Cal 2 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Cal">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/hsign.jpg" alt="Hollywood Sign Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Hollywood Sign</h4>
+                                <span class="keychain-loc">Los Angeles, CA</span>
+                            </div>
+                        </div>
+
+                        <!-- Wash 3 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Wash">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/museumflight.jpg" alt="Museum Of Flight Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Museum of Flight</h4>
+                                <span class="keychain-loc">Boeing Field, WA</span>
+                            </div>
+                        </div>
+
+                        <!-- Cal 3 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Cal">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/6flags.jpg" alt="Six Flags Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Six Flags Magic Mountain</h4>
+                                <span class="keychain-loc">Santa Clarita, CA</span>
+                            </div>
+                        </div>
+
+                        <!-- Ore 1 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Ore">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/Multnomah.jpg" alt="Multnomah Falls Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Multnomah Falls</h4>
+                                <span class="keychain-loc">Columbia River Gorge, OR</span>
+                            </div>
+                        </div>
+
+                        <!-- Cal 4 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Cal">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/yosemite.jpg" alt="Yosemite National Park Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Yosemite National Park</h4>
+                                <span class="keychain-loc">California</span>
+                            </div>
+                        </div>
+
+                        <!-- Ore 2 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Ore">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/Imperial.jpg" alt="Imperial River Company Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Imperial River Company</h4>
+                                <span class="keychain-loc">Maupin, OR</span>
+                            </div>
+                        </div>
+
+                        <!-- Ore 3 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Ore">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/zoo.jpg" alt="Oregon Zoo Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Oregon Zoo</h4>
+                                <span class="keychain-loc">Portland, OR</span>
+                            </div>
+                        </div>
+
+                        <!-- Wash 4 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Wash">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/spaceneedle.jpg" alt="Space Needle Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Space Needle</h4>
+                                <span class="keychain-loc">Seattle, WA</span>
+                            </div>
+                        </div>
+
+                        <!-- Cal 5 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Cal">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/griffith.jpg" alt="Griffith Observatory Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Griffith Observatory</h4>
+                                <span class="keychain-loc">Los Angeles, CA</span>
+                            </div>
+                        </div>
+
+                        <!-- Ore 4 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Ore">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/BigAls.jpg" alt="Big Al's Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Big Al's</h4>
+                                <span class="keychain-loc">Portland, OR</span>
+                            </div>
+                        </div>
+
+                        <!-- Cal 6 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Cal">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/bass.jpg" alt="Bass Lake Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Bass Lake</h4>
+                                <span class="keychain-loc">Madera County, CA</span>
+                            </div>
+                        </div>
+
+                        <!-- Ore 5 -->
+                        <div class="gallery-card glass-panel card-lift" data-category="Ore">
+                            <div class="img-wrapper">
+                                <img src="images/keychains/Vista.jpg" alt="Vista House Keychain" class="keychain-img" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <h4 class="keychain-title">Vista House</h4>
+                                <span class="keychain-loc">Columbia River Gorge, OR</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5: Contact -->
+            <section id="contact" class="content-section reveal-on-scroll">
+                <div class="glass-panel section-panel">
+                    <h2 class="section-title">Let's Keep In Touch</h2>
+                    
+                    <div class="contact-grid">
+                        
+                        <!-- Contact Detail Card -->
+                        <div class="contact-details-block glass-panel">
+                            <h3 class="card-subtitle text-gradient">Contact Information</h3>
+                            <p class="contact-intro">Feel free to reach out directly or send an email through the form. I'd love to discuss AI Agents, Data Engineering, or anything data related.</p>
+                            
+                            <ul class="contact-bullets">
+                                <li>
+                                    <div class="bullet-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <div class="bullet-text">
+                                        <strong>Location:</strong>
+                                        <span>Seattle, WA</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bullet-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                    </div>
+                                    <div class="bullet-text">
+                                        <strong>Email:</strong>
+                                        <div class="email-copy-wrapper">
+                                            <a href="mailto:chidambaram70@gmail.com" class="text-glow-hover email-value" id="email-contact">chidambaram70@gmail.com</a>
+                                            <button class="copy-email-btn" id="copy-email-contact" aria-label="Copy email to clipboard">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                                <span class="tooltip-text" id="tooltip-contact">Copy</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bullet-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                                    </div>
+                                    <div class="bullet-text">
+                                        <strong>Website:</strong>
+                                        <span>cmuthapp.github.io</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="contact-form-block glass-panel">
+                            <h3 class="card-subtitle text-gradient">Let's Connect</h3>
+                            <form id="contact-form" onsubmit="event.preventDefault(); window.location.href='mailto:chidambaram70@gmail.com?subject=Contact from Portfolio (' + document.getElementById('form-name').value + ')&body=' + encodeURIComponent(document.getElementById('form-message').value + '\n\nFrom: ' + document.getElementById('form-name').value + ' (' + document.getElementById('form-email').value + ')');">
+                                <div class="form-group">
+                                    <label for="form-name">Your Name</label>
+                                    <input type="text" id="form-name" required placeholder="John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Your Email</label>
+                                    <input type="email" id="form-email" required placeholder="john@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-message">Your Message</label>
+                                    <textarea id="form-message" required rows="5" placeholder="Let's build something great together..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-full" id="form-submit-btn">Send Message</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Zero-Dependency Lightbox Modal -->
+    <div id="lightbox" class="lightbox-overlay" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close Lightbox">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+</body>
+</html>
